@@ -29,6 +29,12 @@ jobs:
           hugo-version: '0.165.0'
           extended: true
 
+      - name: Install Dart Sass
+        run: |
+          sudo snap install dart --classic
+          # Alternative method if snap fails:
+          # curl -fsSL https://github.com/sass/dart-sass/releases/download/1.77.0/dart-sass-1.77.0-linux-x64.tar.gz | sudo tar -xz -C /usr/local/bin --strip-components=1
+
       - name: Build
         run: |
           hugo version

@@ -1,11 +1,11 @@
-baseURL = 'https://kinqdathacker.com/'
+baseURL = 'https://kinqdathacker.github.io/'
 languageCode = 'en-us'
 title = 'The Innanet G4NG5T3R'
 theme = "nightfall"
 
 [params]
-  user = "hello"
-  hostname = "gohugo.io"
+  user = "FLH"
+  hostname = "kinqdathacker"
   displayDateFormat = "08.10.2026"
 
   [params.author]
@@ -17,7 +17,7 @@ theme = "nightfall"
   [[params.social]]
     key = 0
     name = "github"
-    url = "https://github.com/gohugoio"
+    url = "https://github.com/kinqdathacker"
     icon = "fa-brands fa-github"
     target = "_blank"
     aria = "GitHub Profile"

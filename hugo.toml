@@ -1,0 +1,32 @@
+baseURL = 'https://kinqdathacker.com/'
+languageCode = 'en-us'
+title = 'The Innanet G4NG5T3R'
+theme = "nightfall"
+
+[params]
+  user = "hello"
+  hostname = "gohugo.io"
+  displayDateFormat = "08.10.2026"
+
+  [params.author]
+    name = "Kinqdathacker"
+    avatar = "/home/kinqdathacker/Pictures/huey-silhouette.jpg"
+    avatarSize = "size-m"
+    avatarFirst = true
+
+  [[params.social]]
+    key = 0
+    name = "github"
+    url = "https://github.com/gohugoio"
+    icon = "fa-brands fa-github"
+    target = "_blank"
+    aria = "GitHub Profile"
+
+  [[params.social]]
+    key = 1
+    name = "twitter"
+    url = "https://x.com/kinqdathacker"
+
+
+[pagination]
+  pagerSize = 3
